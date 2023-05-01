@@ -1,0 +1,19 @@
+.test{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px red;
+    width: 500px;
+}
+.table, td, th{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td, th{
+    min-width: 100px;
+}
+.so-am{
+    color: red;
+}
+.right{
+    text-align: right;
+}

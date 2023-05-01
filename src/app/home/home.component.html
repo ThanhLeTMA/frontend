@@ -1,0 +1,17 @@
+<div class="test">
+    <h3>Đây là home component</h3>
+    <h1>Trái cây</h1>
+    Tỉnh / Thành Phố:
+    <select id="city" (change)="changeCity($event)">
+        <option *ngFor="let data of vietnamData" value="{{data.city}}">
+            {{data.city}}
+        </option>
+    </select>
+    <br/>
+    Quận / Huyện:
+    <select id="district">
+        <option *ngFor="let district of districts" value="{{district}}">
+            {{district}}
+        </option>
+    </select>
+</div>
